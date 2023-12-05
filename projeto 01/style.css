@@ -1,0 +1,63 @@
+body {
+    text-align: center; /*centralizei o texto no centro*/
+    margin: 0; /*zerei a margem do body pq por padrao o navegador vem com 8px*/
+}
+
+#hero img {
+    margin-bottom: 72px; /*abaixo da imagem tem 72px*/
+}
+
+#hero {
+    width: 592px;
+    margin: 0 auto /*ele tentou equilibrar a margem entre um lado e o outro, ja que o width criou uma caixa de 592px na tela. 
+                o text-align nao perdeu efeito pois o texto continuou todo alinhado no centro. TOP e BOTTOM nao recebem "auto"*/
+} 
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 49px;
+    line-height: 56px; /*altura da linha*/
+    font-weight: normal; /*peso da fonte como bold, regular, etc*/
+    margin-bottom: 32px;
+}
+
+h1 span { /*estou entrando dentro do span que ta dentro do h1, ou seja, estou sendo especifica*/
+    font-weight: bold;
+}
+
+p {
+    color: #7D7987;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 80px;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+    color: #FF9900;
+}
+
+span {
+    color: #FF9900;
+}
+
+#footer a + a { /*pegue o A que anterior a ele tenha outro A*/
+    margin-left: 28px;
+}
+
+#line {
+    width: 568.001px;
+    height: 0px;
+    border: 1px #ECEFF2 solid;
+    margin: 0 auto 8px;
+}
+
+#balls {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+
+
